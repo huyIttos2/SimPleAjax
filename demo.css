@@ -1,0 +1,92 @@
+body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
+        /*reseting our page elements*/
+        margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetical, sans-serif;
+}
+ body{
+     /*styling the body*/
+     margin-top:20px;
+     color: #51555C;
+     font-size: 13px;
+     background-color:#123456;
+ }
+ .clear{
+     /*the clear fix hack*/
+     clear:both;
+ }
+ a, a:visited{
+     /*styling the links*/
+     color: #007bc4;
+     text-decoration:none;
+     outline:none;
+ }
+ a:hover{
+     text-decoration:none;
+     outline:none;
+ }
+ a:hover{
+     text-decoration:underline;
+ }
+ #rounded{
+     width:800px;
+     margin:20px auto;
+ }
+ .container{
+     /*this one containsour navigation,titles, and fetched content*/
+     background-color: #FFFFFF;
+     padding:10px 20px 20px 20px;
+ }
+ h1{
+     /*the heading*/
+     font-size: 28px;
+     font-weight:bold;
+     font-family:"Trebuchet MS",Arial,Helvetical, sans-serif;
+ }
+ h2{
+     /*the subheading*/
+     font-weight: normal;
+     font-size: 20px;
+     color: #999999;
+ }
+ ul{
+     /*the unordered list used in the navigation*/
+     margin: 30px 0px;
+ }
+ li{
+     /*we float li-s, which contain our navigation links- we later apply clearfix*/
+     list-style: none;
+     display:block;
+     float: left;
+     width: 70px;
+ }
+ li a,li a:visited{
+     /*the navigation link*/
+     padding: 5px 10px;
+     text-align:center;
+     background-color:#000033;
+     color:white;
+     /*rounding them*/
+     -moz-border-radius:5px;
+     -khtml-border-radius:5px;
+     -webkit-border-radius:5px;
+     border-radius: 5px;
+ }
+ li a:hover{
+     background-color:#666666;
+     text-decoration:none;
+ }
+ #pageContent{
+     margin-top: 20px;
+     border:1px dashed #cccccc;
+     padding: 10px;
+     /*rounding the element*/
+     -moz-border-radius:5px;
+     -khtml-border-radius:5px;
+     -webkit-border-radius:5px;
+     border-radius: 5px;
+ }
+ #loading{
+     /*hiding the roating gif graphic by default*/
+     visibility: hidden;
+ }

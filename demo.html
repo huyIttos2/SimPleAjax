@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="rounded">
+        <img src="img/top_bg.gif" alt="">  <!--image rounded left and right top corner-->
+        <div id="main" class="container"><!--our main container element -->
+            <h1>A simple Ajax driven jQuery website</h1> <!-- titles -->
+            <h2>A simple AJAX driven jQuery website</h2>
+            <h2>Because simpler is better</h2>
+            <ul id="navigation"> <!-- the navigation menu -->
+                <li><a href="#page1">Page1</a></li>
+                <li><a href="page2">Page2</a></li>
+                <li><a href="page3">Page3</a></li>
+                <li><a href="page4">Page4</a></li>
+                <li><img id="loading" src="img/ajax_load_gif" alt="loading"></li> <!-- roating gif hidden.by default -->
+            </ul>
+            <div class="clear"></div><!-- the above link are floated- we have to user the clearfix hack-->
+            <div id="pageContent"><!-- this is where our Ajax-ed content goes-->
+                Hello, this is default content
+            </div>
+        </div>
+        <div class="clear-fix"></div><!--clear just in case-->
+        <img src="img/bottom_bg.gif" alt=""><!-- the bottom two rounded cornners of the page-->
+    </div>
+</body>
+</html>
